@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Settings</class>
+    <widget class="QWidget" name="Settings">
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>525</width>
+                <height>0</height>
+            </size>
+        </property>
+
+        <layout class="QVBoxLayout" name="verticalLayout" >
+
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_01" >
+                    <item>
+                        <widget class="QLabel" name="user_name_label">
+                            <property name="text">
+                                <string>Post data</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="post_data" />
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_02" >
+                    <item>
+                        <widget class="QLabel" name="fontstylesheet_label">
+                            <property name="text">
+                                <string>Font style</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="fontstylesheet"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_03" >
+                    <item>
+                        <widget class="QLabel" name="info_url_label">
+                            <property name="text">
+                                <string>Info URL</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="info_url"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_04" >
+                    <item>
+                        <widget class="QLabel" name="login_url_label">
+                            <property name="text">
+                                <string>Login URL</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="login_url"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_05" >
+                    <item>
+                        <widget class="QLabel" name="logout_url_label">
+                            <property name="text">
+                                <string>Logout URL</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="logout_url"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_06" >
+                    <item>
+                        <widget class="QLabel" name="data_xpath_label">
+                            <property name="text">
+                                <string>Data xpath</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="data_xpath"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_07" >
+                    <item>
+                        <widget class="QLabel" name="is_login_regexp_label">
+                            <property name="text">
+                                <string>'Is login?' regexp</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="is_login_regexp"/>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <layout class="QHBoxLayout" name="horizontalLayout_08" >
+                    <item>
+                        <widget class="QLabel" name="time_out_label">
+                            <property name="text">
+                                <string>Time out</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QSpinBox" name="time_out" >
+                            <property name="toolTip" >
+                                <string>Tooltip</string>
+                            </property>
+                            <property name="buttonSymbols" >
+                                <enum>QAbstractSpinBox::UpDownArrows</enum>
+                            </property>
+                            <property name="suffix" >
+                                <string> Sec</string>
+                            </property>
+                            <property name="minimum" >
+                                <number>60</number>
+                            </property>
+                            <property name="maximum" >
+                                <number>3600</number>
+                            </property>
+                            <property name="value" >
+                                <number>60</number>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item><!--}}}-->
+            <item><!--{{{-->
+                <spacer name="verticalSpacer" >
+                    <property name="orientation" >
+                        <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0" >
+                        <size>
+                            <width>20</width>
+                            <height>44</height>
+                        </size>
+                    </property>
+                </spacer>
+            </item><!--}}}-->
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
